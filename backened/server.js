@@ -51,7 +51,7 @@ server.post("/api/users/add", (req, res) => {
     return res.status(200).send({
         status: true,
         message: "User added",
-        data: users,
+        // data: users,
     })
 })
 
